@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Activity Beginner App - 2 </string>
+    <string name="button1_string">Teknik 1</string>
+    <string name="button2_string">Teknik 2</string>
+    <string name="button3_string">Teknik 3</string>
+    <string name="button4_string">Teknik 4</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">D1_ActivityOrientation</string>
+    <string name="button_yatay_string">Yatay</string>
+    <string name="Dikey">Dikey</string>
+</resources>
