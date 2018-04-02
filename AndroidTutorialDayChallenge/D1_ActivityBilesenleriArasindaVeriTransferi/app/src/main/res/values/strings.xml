@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">D1_ActivityBilesenleriArasindaVeriTransferi</string>
+    <string name="button_text">Gönder</string>
+    <string name="edittext_text">Mesaj Giriniz</string>
+</resources>
