@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">D1_ActivityOrientation3</string>
+    <string name="textview_text">Cihaz Yönü Nedir ?</string>
 </resources>
