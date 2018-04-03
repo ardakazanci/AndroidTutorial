@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">D2_ActivityDataTransferBundle</string>
+    <string name="et_username">UserName Pls.</string>
+    <string name="et_string">E Mail Pls.</string>
+    <string name="et_age_string">Age Pls.</string>
+    <string name="age_pls_string">Age Pls.</string>
+    <string name="bt_send">Send</string>
+</resources>
