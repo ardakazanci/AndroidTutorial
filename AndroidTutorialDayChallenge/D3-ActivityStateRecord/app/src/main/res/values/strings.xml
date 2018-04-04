@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">D3-ActivityOnSaveInstanceStateOnRestoreInstanceState</string>
+    <string name="textview_string">Sayaç :</string>
+    <string name="button_text">Ekle</string>
+</resources>

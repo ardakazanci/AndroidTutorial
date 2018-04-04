@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">D3-ActivityOrientationDesign</string>
+    <string name="button_text">Resim Seçiniz</string>
+    <string name="edittext_text">Kitap İsmi</string>
+    <string name="edittext_hint_text">Yazar İsmi</string>
+    <string name="edittext_text_2">Yayınevi</string>
+</resources>
