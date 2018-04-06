@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search"
+        android:title="Arama"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_settings"
+        android:title="Ayarlar"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/likeit"
+        android:icon="@drawable/ic_likeit"
+        android:title="Beğen"
+        app:showAsAction="always" />
+
+</menu>
