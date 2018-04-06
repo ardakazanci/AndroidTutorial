@@ -6,7 +6,11 @@
 
     <!-- Kişi verilerini okumak için gerekli izinleri ekliyoruz -->
 
-    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.read_contacts" />
+    <uses-permission android:name="android.permission.read_phone_state" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+
 
     <application
         android:allowBackup="true"

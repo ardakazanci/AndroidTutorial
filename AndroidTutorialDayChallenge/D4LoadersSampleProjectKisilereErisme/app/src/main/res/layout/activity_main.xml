@@ -11,10 +11,12 @@
     <!-- ListFragment ile oluşturulan sınıfımızı MainActivity bileşenine ekliyoruz -->
 
     <fragment
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/fragment"
-        android:name="com."
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/fragment"
+       android:name="com.ardakazanci.d4_loaderssampleprojectkisilereerisme.LoaderContactListFragment"
+       />
+
 
 
 </LinearLayout>
