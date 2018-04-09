@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    >
+
+    <TextView
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/textview_ogrenci"
+        android:text="Arda Kazancı"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:textSize="15sp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview_ders"
+        android:text="Matematik:"
+        />
+    <TextView
+        android:textSize="15sp"
+        android:text="95"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:id="@+id/textview_not"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
