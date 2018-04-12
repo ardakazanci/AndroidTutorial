@@ -60,6 +60,20 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        mediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+            @Override
+            public void onCompletion(MediaPlayer mp) {
+
+                Toast.makeText(getApplicationContext(), "Müzik Bitti", Toast.LENGTH_SHORT).show();
+
+            }
+        });
+
+
     }
 
+
+
 }
+
+
