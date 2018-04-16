@@ -3,6 +3,7 @@ package com.ardakazanci.recyclerviewtutorial3;
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
+import android.text.Html;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -44,16 +45,23 @@ public class Adapter extends RecyclerView.Adapter<Adapter.CustomViewHolder> {
         // Picasso kullanarak görüntüyü gösterme işlemi
 
         if (!TextUtils.isEmpty(feedItem.getThumbnail())) {
-           // Picasso ' da kaldık.
+            Picasso.with(context).load(feedItem.getThumbnail())
+                    .error(R.drawable.ic_launcher_background)
+                    .placeholder(R.drawable.ic_launcher_background)
+                    .into(holder.imageView);
 
         }
+
+        holder.textView.setText(Html.fromHtml(feedItem.getTitle()));
 
 
     }
 
     @Override
     public int getItemCount() {
-        return 0;
+        return (null != feedItemList ? feedItemList.size() : 0);
+
+
     }
 
     // Görünüm refranslarını oluşturma ve eşleştirme.
